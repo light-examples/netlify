@@ -2,3 +2,6 @@
   command = "npm install"
   functions = "routes"
   environment = { LIGHT_ENVIRONMENT = "netlify" }
+
+[context.production]
+  environment = { LIGHT_ENVIRONMENT = "netlify" }
